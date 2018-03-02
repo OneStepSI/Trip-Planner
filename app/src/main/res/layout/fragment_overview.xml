@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="onestep.id.joints.OverviewFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageOverview1"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/titleOverview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageOverview1"
+            android:background="#3e000000"
+            android:text="Banyuwangi\nKabupaten blabalblabla"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:columnWidth="175dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="2"
+        android:paddingBottom="10dp"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="5dp">
+
+    </GridView>
+
+</LinearLayout>
