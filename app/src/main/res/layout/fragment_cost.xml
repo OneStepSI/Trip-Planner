@@ -1,0 +1,67 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="onestep.id.joints.CostFragment">
+
+    <LinearLayout
+        android:id="@+id/create"
+        android:layout_width="325dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#e6e7e9"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Estimate Cost"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="17.5dp" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:text="1203810381"
+                    android:textSize="17.5dp"
+                    android:textColor="#FFF"
+                    android:background="@drawable/green"
+                    android:gravity="center_horizontal|center_vertical"/>
+
+                <ExpandableListView
+                    android:id="@+id/list_cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                </ExpandableListView>
+
+            </LinearLayout>
+        <!--</ScrollView>-->
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>

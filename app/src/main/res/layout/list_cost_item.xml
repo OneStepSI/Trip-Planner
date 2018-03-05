@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:id="@+id/detailCostItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Detail"
+        android:textColor="#FF0055"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/danaCostItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        android:textColor="#FF0055"
+        android:textSize="20dp" />
+</RelativeLayout>
