@@ -15,12 +15,12 @@ import java.util.List;
  */
 
 public class BerandaListAdapter extends BaseAdapter {
-    private Activity activity;
+    private Context context;
     private LayoutInflater inflater;
     private List<mBeranda> list;
 
-    public BerandaListAdapter(Activity activity, List<mBeranda> list) {
-        this.activity = activity;
+    public BerandaListAdapter(Context context, List<mBeranda> list) {
+        this.context = context;
         this.list = list;
     }
 
@@ -41,7 +41,7 @@ public class BerandaListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View view = View.inflate(activity,R.layout.list_beranda,null);
+        View view = View.inflate(context,R.layout.list_beranda,null);
         TextView destination = (TextView)view.findViewById(R.id.destiantion);
 
         mBeranda m = list.get(position);

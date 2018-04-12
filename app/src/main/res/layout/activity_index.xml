@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/slide"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/viewPager"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:ci_drawable="@drawable/index_circle"
+            app:ci_height="10dp"
+            app:ci_width="10dp" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/buttonRegis"
+        android:textColor="#FFF"
+        android:text="Daftar Akun Gratis"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_index"
+        android:layout_below="@id/relative"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRegis"
+        android:layout_marginTop="8dp"
+        android:text="Sudah punya akun?"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:id="@+id/sudah"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/sudah"
+        android:background="@android:color/transparent"
+        android:text="Masuk Disini"
+        android:textColor="#005bea"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonLogin"/>
+
+</RelativeLayout>
