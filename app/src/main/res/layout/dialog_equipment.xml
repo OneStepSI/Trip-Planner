@@ -37,7 +37,7 @@
         android:layout_height="45dp"
         android:text="Prepare It"
         android:textColor="#FFF"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/button"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"/>
 

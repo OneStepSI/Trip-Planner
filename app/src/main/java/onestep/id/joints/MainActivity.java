@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        BerandaFragment berandaFragment = new BerandaFragment();
+        OverviewFragment overviewFragment = new OverviewFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.fragment, berandaFragment);
+        fragmentTransaction.replace(R.id.fragment, overviewFragment);
         fragmentTransaction.commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -132,17 +132,11 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.beranda) {
-            BerandaFragment berandaFragment = new BerandaFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment, berandaFragment);
-            fragmentTransaction.commit();
-            toolbar.setTitle("Beranda");
-        } else if (id == R.id.overview) {
             OverviewFragment overviewFragment = new OverviewFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment, overviewFragment);
             fragmentTransaction.commit();
-            toolbar.setTitle("Overview");
+            toolbar.setTitle("Beranda");
         } else if (id == R.id.route) {
             RouteFragment routeFragment = new RouteFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
