@@ -68,7 +68,10 @@ public class CostExpandableListAdapter extends BaseExpandableListAdapter {
             convertView = inflater.inflate(R.layout.list_cost_group, null);
         }
         TextView keperluan = (TextView)convertView.findViewById(R.id.keperluanCostGroup);
+        TextView danaG = (TextView)convertView.findViewById(R.id.danaCostGroup);
         keperluan.setText(titleGroup);
+        danaG.setText("1000000");
+
         return convertView;
     }
 
@@ -80,7 +83,10 @@ public class CostExpandableListAdapter extends BaseExpandableListAdapter {
             convertView = inflater.inflate(R.layout.list_cost_item, null);
         }
         TextView details = (TextView)convertView.findViewById(R.id.detailCostItem);
+        TextView dana = (TextView)convertView.findViewById(R.id.danaCostItem);
         details.setText(titleItem);
+        dana.setText("50000");
+
         return convertView;
     }
 

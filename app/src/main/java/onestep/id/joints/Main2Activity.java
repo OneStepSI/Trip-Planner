@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
     private ProgressDialog pDialog;
     private String id_user;
     private int id_agenda;
-    public static final String AgendaURL = "http://192.168.1.5/tripd/api/agenda.php?apicall=get_all_agenda_user"; //wifi unej 10.132.1.216
+    public static final String AgendaURL = "http://192.168.43.241/tripd/api/agenda.php?apicall=get_all_agenda_user"; //wifi unej 10.132.1.216
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

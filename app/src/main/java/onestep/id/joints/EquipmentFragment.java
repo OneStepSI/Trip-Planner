@@ -38,8 +38,8 @@ import java.util.Map;
  * A simple {@link Fragment} subclass.
  */
 public class EquipmentFragment extends Fragment {
-    public static final String createPeralatanURL = "http://10.132.4.66/tripd/api/agenda.php?apicall=insert_peralatan";
-    public static final String getPeralatanURL = "http://10.132.4.66/tripd/api/agenda.php?apicall=get_peralatan";
+    public static final String createPeralatanURL = "http://192.168.43.241/tripd/api/agenda.php?apicall=insert_peralatan";
+    public static final String getPeralatanURL = "http://192.168.43.241/tripd/api/agenda.php?apicall=get_peralatan";
     private GridView gridView;
     private EquipmentGridAdapter adapter;
     private List<mEquipment> mEquipments = new ArrayList<mEquipment>();

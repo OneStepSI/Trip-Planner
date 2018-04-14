@@ -36,11 +36,11 @@ public class OverviewFragment extends Fragment {
         imageView = (ImageView)view.findViewById(R.id.imageOverview1);
         mlist = new ArrayList<>();
 
-        mlist.add(new mOverview(1,R.mipmap.gambar2,"banyuwasdasd"));
-        mlist.add(new mOverview(2,R.mipmap.gambar3,"banyuwasdasd"));
-        mlist.add(new mOverview(3,R.mipmap.gambar4,"banyuwasdasd"));
-        mlist.add(new mOverview(4,R.mipmap.gambar5,"banyuwasdasd"));
-        mlist.add(new mOverview(5,R.mipmap.gambar6,"banyuwasdasd"));
+        mlist.add(new mOverview(1,R.mipmap.gambar2,"Borobudur"));
+        mlist.add(new mOverview(2,R.mipmap.gambar3,"Labuhan Bajo"));
+        mlist.add(new mOverview(3,R.mipmap.gambar4,"Kaliurang"));
+        mlist.add(new mOverview(4,R.mipmap.gambar5,"Wisata Alam"));
+        mlist.add(new mOverview(5,R.mipmap.gambar6,"Garut"));
 
         adapter = new OverviewListAdapter(getActivity(), mlist);
         gridView.setAdapter(adapter);

@@ -43,7 +43,7 @@ public class CreateTrip extends AppCompatActivity implements View.OnClickListene
     private DatePickerDialogFragment mDatePickerDialogFragment;
     private String nama_agenda,traveler,activity,berangkat,datang,id_user;
     private EditText etAgenda;
-    public static final String createAgendaURL = "http://10.132.4.66/tripd/api/agenda.php?apicall=insert_agenda";
+    public static final String createAgendaURL = "http://192.168.43.241/tripd/api/agenda.php?apicall=insert_agenda";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
