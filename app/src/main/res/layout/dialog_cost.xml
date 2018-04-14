@@ -20,6 +20,7 @@
         android:layout_marginTop="10dp">
 
         <EditText
+            android:id="@+id/etKeperluan"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Keperluan" />
@@ -31,6 +32,7 @@
         android:layout_marginTop="10dp">
 
         <EditText
+            android:id="@+id/etDtail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Details" />
@@ -42,9 +44,11 @@
         android:layout_marginTop="10dp">
 
         <EditText
+            android:id="@+id/etDana"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:hint="Dana" />
+            android:hint="Dana"
+            android:inputType="number"/>
     </android.support.design.widget.TextInputLayout>
 
     <TextView
@@ -56,6 +60,7 @@
         android:textSize="20dp" />
 
     <RadioGroup
+        android:id="@+id/RgKategoriCost"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

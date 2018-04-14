@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/imageOverview1"
             android:background="#3e000000"
-            android:text="Banyuwangi\nKabupaten blabalblabla"
+            android:text="Banyuwangi\nSunrise of Java"
             android:textColor="#FFF" />
     </RelativeLayout>
 
