@@ -45,7 +45,7 @@ public class BerandaListAdapter extends BaseAdapter {
         TextView destination = (TextView)view.findViewById(R.id.destiantion);
 
         mBeranda m = list.get(position);
-        destination.setText(m.getDestination());
+        destination.setText(m.getNama_agenda());
         view.setTag(m.getId());
         return view;
     }

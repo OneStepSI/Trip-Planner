@@ -50,6 +50,7 @@
                     android:textSize="20dp" />
 
                 <EditText
+                    android:id="@+id/agenda"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Destination" />
@@ -73,7 +74,7 @@
                         android:layout_width="150dp"
                         android:layout_height="50dp"
                         android:background="#d4d4d4"
-                        android:onClick="datePicker" />
+                      />
 
 
                     <Button
@@ -82,7 +83,7 @@
                         android:layout_height="50dp"
                         android:layout_marginLeft="5dp"
                         android:background="#d4d4d4"
-                        android:onClick="datePicker" />
+                         />
 
                 </LinearLayout>
 
@@ -95,14 +96,10 @@
                     android:textSize="20dp" />
 
                 <RadioGroup
+                    android:id="@+id/rg_traveler"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                         <RadioButton
                             android:layout_width="100dp"
@@ -120,7 +117,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:text="Balita" />
-                    </LinearLayout>
+
                 </RadioGroup>
 
 
@@ -133,6 +130,7 @@
                     android:textSize="20dp" />
 
                 <RadioGroup
+                    android:id="@+id/rg_activity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -174,6 +172,7 @@
                 </RadioGroup>
 
                 <Button
+                    android:id="@+id/planit"
                     android:layout_width="150dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
