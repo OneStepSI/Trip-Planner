@@ -14,7 +14,7 @@
             android:id="@+id/imageOverview1"
             android:layout_width="match_parent"
             android:layout_height="175dp"
-            android:background="@color/colorPrimary" />
+            android:background="@mipmap/gambar1" />
 
         <TextView
             android:id="@+id/titleOverview1"

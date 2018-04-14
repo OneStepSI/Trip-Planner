@@ -46,6 +46,7 @@ public class Index extends AppCompatActivity {
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new Index6Fragment());
         adapter.addFragment(new Index1Fragment());
         adapter.addFragment(new Index2Fragment());
         adapter.addFragment(new Index3Fragment());

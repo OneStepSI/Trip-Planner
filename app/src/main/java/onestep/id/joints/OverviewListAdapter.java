@@ -45,11 +45,11 @@ public class OverviewListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = View.inflate(activity, R.layout.grid_overview, null);
-        ImageView imageOverview = (ImageView)view.findViewById(R.id.imageOverview);
-        TextView titleOverview = (TextView)view.findViewById(R.id.titleOverview);
 
         mOverview m = list.get(position);
+        ImageView imageOverview = (ImageView)view.findViewById(R.id.imageOverview);
         imageOverview.setImageResource(m.getImageOverview());
+        TextView titleOverview = (TextView)view.findViewById(R.id.titleOverview);
         titleOverview.setText(m.getTitleOverview());
         view.setTag(m.getId());
         return view;
