@@ -6,25 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/beranda"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@mipmap/beranda"
             android:title="Beranda" />
         <item
             android:id="@+id/overview"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_search_black_24dp"
             android:title="Overview" />
         <item
             android:id="@+id/route"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_location_on_black_24dp"
             android:title="Route" />
         <item
             android:id="@+id/equipment"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@mipmap/equip"
             android:title="Equipment" />
         <item
             android:id="@+id/collaborate"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
             android:title="Collaborate"/>
         <item
             android:id="@+id/booking"
+            android:icon="@mipmap/bookingl"
             android:title="Booking"/>
     </group>
 
@@ -32,17 +34,19 @@
         <menu>
             <item
                 android:id="@+id/friends"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_person_black_24dp"
                 android:title="Friends" />
             <item
                 android:id="@+id/notification"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_notifications_black_24dp"
                 android:title="Notification" />
             <item
                 android:id="@+id/setting"
+                android:icon="@drawable/ic_settings_black_24dp"
                 android:title="Setting"/>
             <item
                 android:id="@+id/logout"
+                android:icon="@mipmap/logout"
                 android:title="Log Out"/>
         </menu>
     </item>

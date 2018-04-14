@@ -26,7 +26,7 @@ public class Login extends AppCompatActivity {
     Button login;
     String username,password,id_user,nama,email,token;
     int id_agenda;
-    public static final String loginURL = "http://10.132.4.66/tripd/api/login.php"; //wifi unej 10.132.1.216
+    public static final String loginURL = "http://192.168.1.5/tripd/api/login.php"; //wifi unej 10.132.1.216
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
