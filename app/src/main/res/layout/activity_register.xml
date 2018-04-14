@@ -59,17 +59,7 @@
                     android:hint="Email"
                     android:inputType="textEmailAddress"/>
             </android.support.design.widget.TextInputLayout>
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp">
-                <EditText
-                    android:id="@+id/hp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="No HP"
-                    android:inputType="number"/>
-            </android.support.design.widget.TextInputLayout>
+
             <CheckBox
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="10dp"

@@ -8,10 +8,21 @@ public class mEquipment {
     private int id;
     private String equip;
 
+    public String getPembawa() {
+        return pembawa;
+    }
+
+    public void setPembawa(String pembawa) {
+        this.pembawa = pembawa;
+    }
+
+    private String pembawa;
+
     public mEquipment(int id, String equip) {
         this.id = id;
         this.equip = equip;
     }
+    public mEquipment(){}
 
     public int getId() {
         return id;
