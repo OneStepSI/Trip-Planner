@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -132,11 +133,18 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.beranda) {
+//            OverviewFragment overviewFragment = new OverviewFragment();
+//            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//            fragmentTransaction.replace(R.id.fragment, overviewFragment);
+//            fragmentTransaction.commit();
+            Intent i = new Intent(MainActivity.this,Main2Activity.class);
+            startActivity(i);
+        } else if (id == R.id.overview) {
             OverviewFragment overviewFragment = new OverviewFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment, overviewFragment);
             fragmentTransaction.commit();
-            toolbar.setTitle("Beranda");
+            toolbar.setTitle("Overview");
         } else if (id == R.id.route) {
             RouteFragment routeFragment = new RouteFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();

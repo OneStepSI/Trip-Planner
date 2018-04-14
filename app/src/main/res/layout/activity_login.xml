@@ -11,6 +11,13 @@
         android:layout_height="200dp"
         android:background="@color/colorPrimary"
         android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            android:background="@mipmap/logo_tripd"/>
 
     </LinearLayout>
 
@@ -18,7 +25,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         android:background="@drawable/bg_white"
         android:orientation="vertical"
         android:translationZ="20dp">

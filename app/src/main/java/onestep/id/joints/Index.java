@@ -49,6 +49,8 @@ public class Index extends AppCompatActivity {
         adapter.addFragment(new Index1Fragment());
         adapter.addFragment(new Index2Fragment());
         adapter.addFragment(new Index3Fragment());
+        adapter.addFragment(new Index4Fragment());
+        adapter.addFragment(new Index5Fragment());
         viewPager.setAdapter(adapter);
     }
 

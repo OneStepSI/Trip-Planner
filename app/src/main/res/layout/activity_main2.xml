@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        app:titleTextColor="#FFF"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
     <RelativeLayout
         android:layout_marginTop="50dp"
