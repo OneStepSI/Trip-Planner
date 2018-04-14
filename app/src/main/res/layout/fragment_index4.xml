@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Index3Fragment">
+    tools:context=".Index4Fragment">
 
     <ImageView
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@mipmap/booking"/>
+        android:background="@mipmap/equipment"/>
     <ImageView
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:layout_width="150dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
-        android:background="@mipmap/txt_booking"/>
+        android:background="@mipmap/txt_equip"/>
 
 </LinearLayout>
